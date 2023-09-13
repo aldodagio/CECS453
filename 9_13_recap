@@ -3,4 +3,6 @@
 - there are custom and predefined Themes (HappyBirthdayTheme)
 09/13/2023:
 - if you see a function call starting with prefix 'on' (for example, onValueChanged), then that is a give away that that function is an event handler.
-- 
+- changing orientation on your phone from portrait to landscape will reset your data
+- you can allow user to change orientation or not
+- if you allow it then make sure you use view model
