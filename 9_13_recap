@@ -5,4 +5,15 @@
 - if you see a function call starting with prefix 'on' (for example, onValueChanged), then that is a give away that that function is an event handler.
 - changing orientation on your phone from portrait to landscape will reset your data
 - you can allow user to change orientation or not
-- if you allow it then make sure you use view model
+- if you allow it then make sure you use view model (we haven't really talked about it yet)
+- you can create image by yourself in android using vector
+- leadingIcon for text fields
+Lab Assignment #1:
+- have video link for prof
+- pdf file with coding
+- zip file of project
+- individual file from each team member needs to name their file based on their name so it can be uniquely identified by prof
+Lab Assignment #2:
+- Digital Art Space
+- does not have to be elegant
+- just make it dry, but make sure functionality works
