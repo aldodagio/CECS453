@@ -1,0 +1,6 @@
+- Composable function defines the logic for creating the UI
+- Preview annotation lets you run design without running emulator
+- there are custom and predefined Themes (HappyBirthdayTheme)
+09/13/2023:
+- if you see a function call starting with prefix 'on' (for example, onValueChanged), then that is a give away that that function is an event handler.
+- 
