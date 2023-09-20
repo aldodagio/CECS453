@@ -18,3 +18,22 @@ Lab Assignment #2:
 - does not have to be elegant
 - just make it dry, but make sure functionality works is the important part for this class
 - next week, 9/20/2023 is initial due date
+09/20/2023:
+Topic: Scrollable List
+- Affirmation List
+- You can define a class and a constuctor at the same time
+- creating a list, you should probably implement data and model folder
+- two common layout ; scrollable list and grid
+Lab Assignment 2:
+- hard for him to grade - because he has to unzip everything for the group
+- each member write comment on submission, the team member and team number
+- each member submits
+Code Lab 7:
+- using collections in Kotlin
+Code Lab 9:
+- building a grid
+Screen Density:
+- launcher icon - we dont know screen density (how many pixel per inch) or device model
+Adaptive Icons:
+- Foreground and Background layers
+- quiz #2 on monday
