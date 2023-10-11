@@ -37,3 +37,20 @@ Screen Density:
 Adaptive Icons:
 - Foreground and Background layers
 - quiz #2 on monday
+10/11/2023:
+Introduction to Navigation:
+- Navigation Controller
+- passing data from one page to another
+- Navigation Arguments can be passed to a navigation destination by including argument placeholders within the route
+- NavHost(navController = navController, startDestination = "home")
+- arguments = listOf(navArgument("mealId") {type = NavType.StringType}) // Declaring an argument of StringType
+- backStackEntry -> MealDetailsScreen(mealId = backStackEntry.arguments?.getString("mealId"))
+- Finally, you would retrieve the argument from the NavBackstackEntry that is available within the content parameter of Composable
+- Creating Routes: create a file with the name Routes. Add the following code. It will contain the route names of all screens.
+- Code: sealed class Routes (val route: String) { object Home : Routes("home") object Profile : Routes("profile") object Settings : Routes("setting") }
+- Button(onClick = { navController.naviate(Routes.Profile.route) } )
+- Button(onClick = { navController.naviate(Routes.Settings.route + "/$counter") } ) // passing argument counter to Settings page
+- its recommended to create all other dependent screens before creating the MainActivity.kt
+- do codelab 13 for the topics discussed
+- monday returns the exam
+- wednesday quiz on ViewModel
