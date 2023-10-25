@@ -54,3 +54,19 @@ Introduction to Navigation:
 - do codelab 13 for the topics discussed
 - monday returns the exam
 - wednesday quiz on ViewModel
+10/25/2023:
+- DAO?
+- update, insert, delete all supported without query
+- everything else will need query
+- InventoryDatabase.kt is created with an abstract class and is defined using @Database annotation
+- an abstract class requires at least one abstract method
+- companiion object?
+- companion object keeps an instance variable which keeps a reference to the database (singleton pattern)
+- @volatile annotation ensures the db reference (Instance) is never cached and up to date and avaialble to all threads 
+- race condition? threading?
+- synchronized can be done at method or class level 
+- the synchronized block of code means only one thread of execution at a time can enter this block of code
+- repository pattern
+- REturn FLOW ? What is flow? 
+- november 15 exam, quiz on wednesday
+- 
