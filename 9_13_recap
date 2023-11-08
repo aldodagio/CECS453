@@ -69,4 +69,7 @@ Introduction to Navigation:
 - repository pattern
 - REturn FLOW ? What is flow? 
 - november 15 exam, quiz on wednesday
-- 
+11/8/2023:
+- data folder containing everything related to data like container and repository and dao
+- then you have a home folder item folder navigation folder
+- dependency injection?
